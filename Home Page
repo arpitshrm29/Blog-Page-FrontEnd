@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Welcome | HTML5 Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Include Stylesheets-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		<!--Modernizr-->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<!--Include jQuery-->
+		<script src="js/vendor/jquery-1.11.2.min.js"></script>
+		<!--Main Javascript-->
+		<script src="js/main.js"></script>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <div id="branding">
+                    <img src="img/logo.jpg" alt="Sharma's Blog">
+                    <h1>Sharma's Blog</h1>
+                </div><!--branding-->
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="single-post.html">Single Post</a></li>
+                        <li><a href="add-post.html">Add Post</a></li>
+                    </ul>
+                </nav>
+            </div><!--container-->
+        </header>
+        <div class="container">
+        <aside id="sidebar">
+            <div class="search">
+                <form>
+                    <input type="search" placeholder="Search Our Blog"><input type="image" src="img/search.png" alt="search">
+                </form>
+            </div><!--search-->
+            <div class="clearfix"></div>
+            <nav id="sub-nav">
+                <ul>
+                    <li><a href ="#">The Day I met Her</a></li>
+                    <li><a href="#">SUCCESS</a></li>
+                    <li><a href="#">You Are So Beautiful</a></li>
+                    <li><a href="#">The Choices We Made</a></li>
+                    <li><a href="#">What I love About You</a></li>
+                    <li><a href="#">Ups and Downs of life</a></li>
+                    <li><a href="#">The Modern Gadgets</a></li>
+                    <li><a href="#">Maa</a></li>
+                    <li><a href="#">Do We Still Have Trust Issues</a></li>
+                </ul>
+            </nav>
+            <div class="ad">
+                <img src="img/ad.jpg" alt="advertisement">
+            </div>
+        </aside>
+        <section id="content">
+            <article>
+                <header>
+                    <h2>The Choices We Made</h2>
+                    <div class="meta">
+                        Posted By<strong> Arpit Sharma</strong><span>(32 comments)</span>
+                    </div><!--meta-->
+                </header>
+                <img src="img/post 1.jpg" alt="Post 1">
+                <p> In life , sometimes we have to try to follow our heart not our brain . The decisions we make today decide our future . It’s very easy to choose between right and wrong but to choose the better of two goods , or the lesser of two evils these choices decides our lives .
+
+                    <br/>In life , whether we took a right or a wrong decision the important part is we made a choice , may be it would give us a bad experience but a good decision comes from experience and experience comes from bad decisions .
+                    
+                   <br/> Our life is a result of our choices if we don’t like our life , it’s time to make better choices . No matter how long we have traveled in the wrong direction , we always have the choice to turn around .</p>
+                <footer>
+                    <a class="readmore" href="single-post.html">Read More</a>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2>The Modern Gadgets</h2>
+                    <div class="meta">
+                        Posted By<strong> Arpit Sharma</strong><span>(2 comments)</span>
+                    </div><!--meta-->
+                </header>
+                <img src="img/post 2.jpg" alt="Post 1">
+                <p>Today the world is passing through the revolution of science and technology . The science and technology has gifted unlimited boons to humans . As a result , the humans are concentrated and are confined to these scientific instruments and gadgets .
+</p><p>Parents of this new generation are working ones and find very febble time for family and children , And the children are very ill-effected due to this menace . Parents give their children smart gadgets without even thinking of the other face of the coin .
+</p><p> According to the latest report from World Health Organisation , 34% of children possessing electronic devices before the age of 16 , are found to be less attentive and the level of their IQ has been reported low in comparison to others .
+</p><p>Parents need to put an effort and had to make a step towards the better growth of their children as the relation between parents and children is very gentle . The bond between parents and children can work wonders for the child’s growth in every sphere .</p>
+                <footer>
+                    <a class="readmore" href="single-post.html">Read More</a>
+                </footer>
+            </article>
+        </section>
+        <div class="clearfix"></div>
+        </div><!--container-->	
+
+        <footer id="main-footer">
+            <div class="container">
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Resoures</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#" class="active">The Day I Met Her</a></li>
+                            <li><a href="#">SUCCESS</a></li>
+                            <li><a href="#">You Are So Beautiful</a></li>
+                            <li><a href="#">The Choices We Made</a></li>
+                            <li><a href="#">What I love About You</a></li>
+                            <li><a href="#">Ups and Downs of life</a></li>
+                            <li><a href="#">The Modern Gadgets</a></li>
+                            <li><a href="#">Maa</a></li>
+                            <li><a href="#">Do We Still Have Trust Issues</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-left">
+                    <p class="copy">Copyright &copy; 2020, Arpit Sharma</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
